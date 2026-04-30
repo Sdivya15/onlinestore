@@ -31,6 +31,8 @@ public class DressService {
         return dressesRepository.save(dress);
     }
 
+
+
     //Whatsapp inquiry generation
     public String generateWhatsAppLink(Long dressId) {
 
